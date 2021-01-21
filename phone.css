@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    /* overflow: hidden; */
+    margin: 0px;
+}
+#navbar{
+ flex-direction: column;
+ 
+}
+#navbar ul {
+    padding-left: 2px;
+    text-align: center;
+}
+.logo  img{
+ margin: auto 50% ;
+}
+
+#navbar ul {
+justify-content: center;
+}
+#home{
+height: 370px;
+margin: 2px 17px;
+}
+.services{
+    
+}
+/* inside .services */
+.items{
+    flex-direction: column;
+    align-items: center;
+}
+
+.items .box{
+    text-align: center;
+    margin: 10px 10px ;
+
+
+}
+.services .box{
+    width: 80%;
+
+}
+.patners{
+    flex-wrap: wrap;
+
+}
+.patners img{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding:  auto 5px;
+height:50px;
+}
+#part{
+
+}
+.contact_us{
+
+}
+.footer{
+
+}
