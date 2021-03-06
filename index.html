@@ -4,187 +4,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    
-    <style>
-        body {
-            color: white;
-            margin: 0px;
-            padding: 0px;
-            background: url('imz/bg1.jpg');
-        }
-
-        .left {
-            display: inline-block;
-            position: absolute;
-            left: 34px;
-            top: 20Px;
-            /* border: 2px solid red */
-        }
-
-        .mid {
-            display: block;
-            width: 60%;
-            margin: 20px auto;
-            /* border: 2px solid blue */
-        }
-
-        .right {
-            display: inline-block;
-            position: absolute;
-            right: 34px;
-            top: 20px;
-            /* border: 2px solid green */
-        }
-
-        /* .all{
-
-            position: fixed;
-            top: 20px;
-            display: inline-block;
-
-        } */
-
-        .navbar {
-            display: inline-block;
-
-
-        }
-
-        .navbar li {
-            padding: 1px;
-            margin: 10px;
-            font-size: 25px;
-            display: inline-block;
-        }
-
-        .navbar li a {
-
-            color: honeydew;
-            text-decoration: none;
-        }
-
-        .navbar li a:hover,
-        .navbar li a:active {
-            background-color: honeydew;
-            color: black;
-            padding: 8px;
-            border-radius: 13px;
-
-        }
-
-        .left img {
-            width: 85px;
-filter: invert(100%);
-
-        }
-
-        .left div {
-            font-size: 23px;
-            text-align: center;
-        }
-
-        .bu {
-            margin-top: 20px;
-            padding: 0px 9px;
-            font-size: 25px;
-            border-radius: 10px;
-            color: white;
-            border: none;
-            background-color: black;
-            cursor: pointer;
-        }
-
-        .bu:hover {
-
-            background-color: rgb(70, 65, 65);
-            border-radius: 10px;
-        }
-
-        .con {
-            width: 33%;
-            margin: 78px 147px;
-            padding: 10px 10px;
-            border-radius: 9px;
-            text-align: center;
-            border: 2px solid white;
-        }
-
-        .form-group {
-            display: block;
-            font-size: 20px;
-            border: 2px solid white;
-            border-radius: 7px;
-            width: 340px;
-            text-align: center;
-            margin: 14px;
-        }
-
-        #su {
-            text-align: center;
-            width: 340px;
-        }
-
-        .f1 {
-            display: inline-block;
-
-            /* margin: 6px 70px; */
-            /* text-align: center; */
-        }
-
-        .form-group:hover {
-            background-color: rgb(201, 192, 192);
-        }
-    </style>
-
+    <title>Best Coding PlatForm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet"media="screen and (max-width:900px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Quantico&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="all">
-        <div class="left">
+    <section id="navbar">
+        <div class="logo">
+            <div class="im">
+                <img class="center" src="imz/logo1.png" alt="CodNow.com">
+            </div>
+        </div>
+        <ul>
+            <li class="lii">
+                <a href="#home"> Home </a>
+            </li>
+            <li class="lii"> <a href="#service">Services</a>
+            </li>
+            <li class="lii"> <a href="#part">Our Partners </a>
+            </li>
+            <li class="lii"> <a href="#contact_us">Contact Us</a>
+            </li>
+        </ul>
+    </section>
 
-            <!-- for logo and name  -->
-            <img src="https://img.freepik.com/free-vector/vintage-monochrome-sport-fitness-logo-with-muscular-hand-holding-dumbbell_153969-10.jpg?size=338&ext=jpg&ga=GA1.2.969050202.1608293760"
-                alt="" id="imz1">
-            <div id="name">Fit You</div>
+    <section id="home" class="center">
+        <h1 class="h-primary">Welcome To CodeWorld </h1>
+        <div>
+            Lorem ipsum dolor adipisicing elit. At voluptas tempora eos earum? Esse sunt, non molestias fugit similique
+            amet asperiores eius! Voluptatibus?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur, ad nisi unde doloremque nostrum eaque? Vero, omnis.
+        </div>
+        <button class="btn ">Register Now</button>
+    </section>
+
+    <hr class="horizon_raw">
+    <section class="services center" id="service">
+    <div>
+        <h2 class="second_heading center "> Our services </h2>
+    </div>
+        <div class="items" class="center">
+            <div class="box" class="center">
+                <img src="imz/s1.png" alt="reaload please" class="center">
+                <h2 class="center">Learn Python</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam assumenda facere iusto quidem quas placeat dicta, maxime a accusantium? Exercitationem reiciendis repellat laudantium officiis officia repudiandae quis accusamus commodi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quis ut quo voluptate
+                    accusamus dignissimos debitis consequatur quam vel ullam? Nam, eum repellendus.</p>
+                <button class="btn btnfull center">Enroll Now</button>
+
+            </div>
+
+            <div class="box">
+                <img src="imz/s22.png" alt="reaload please" class="center">
+                <h2 class="center">Learn c++</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam assumenda facere iusto quidem quas placeat dicta, maxime a accusantium? Exercitationem reiciendis repellat laudantium officiis officia repudiandae quis accusamus commodi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quis ut quo voluptate
+                    accusamus dignissimos debitis consequatur quam vel ullam? Nam, eum repellendus.</p>
+                <button class="btn" class="btnfull" class="center">Enroll Now</button>
+
+            </div>
+
+            <div class="box">
+                <img src="imz/S3.png" alt="reaload please" class="center">
+                <h2 class="center">Learn java</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam assumenda facere iusto quidem quas placeat dicta, maxime a accusantium? Exercitationem reiciendis repellat laudantium officiis officia repudiandae quis accusamus commodi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui quis ut quo voluptate
+                    accusamus dignissimos debitis consequatur quam vel ullam? Nam, eum repellendus.</p>
+                <button class="btn" class="btnfull" class="center">Enroll Now</button>
+
+            </div>
 
         </div>
-        <div class="mid">
-            <!-- for navigation -->
-            <ul class="navbar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Fitness Calculator</a></li>
-                <li><a href="#">Contact us </a></li>
+    </section>
+    <section id="part">
 
-            </ul>
+        <hr class="horizon_raw">
+        <div class="patners center second_heading">
+            <h2>
+                Our Partners
+            </h2>
         </div>
-        <div class="right">
-            <!-- for search -->
-            <button class="bu">Call Us</button>
-            <button class="bu">Email us </button>
-        </div>
+        <section class="patners">
+            <img src="imz/p1.png" alt="loading">
+            <img src="imz/p2.png" alt="loading">
+            <img src="imz/p3.png" alt="loading">
+        </section>
+    </section>
+    <hr class="horizon_raw">
 
-        <div class="con">
-            <h1>Join Now With Us </h1>
-            <form action="no.php" class="f1" class="form-group">
-                <div>
-                    <input class="form-group" type="text" name="" placeholder="Enter Name ">
+    <section id="contact_us" >
+        <h1 class="second_heading center">Contact us</h1>
+        <div class="contact_box">
+
+            <form action="#">
+                <div class="form_group">
+                    <div>
+                        <label for="name">Name : </label>
+
+                        <input type="name" placeholder="Enter Your Name">
+                    </div>
+                    <div>
+                        <label for="">Email : </label>
+
+                        <input type="email" placeholder="Enter Your Email">
+
+                    </div>
+                    <div>
+                        <label for="name">Position : </label>
+
+                        <input type="po" placeholder="Enter Your position">
+                    </div>
+                    <div>
+                        <label for="name">Mobile Number : </label>
+
+                        <input number="mobile" placeholder="Enter Your Mobile Number ">
+                    </div>
+                    <div id="last">
+                        <button class="btn center btnfull button" >Submit</button>
+                    </div>
                 </div>
-                <div>
-                    <input class="form-group" type="text" name="" placeholder="Enter Your Age">
-                </div>
-                <div>
-                    <input class="form-group" type="text" name="" placeholder="Enter Your Gender ">
-                </div>
-                <div>
-                    <input class="form-group" type="text" name="" placeholder="Enter Your City ">
-                </div>
-                <button class="bu" id="su">Submit</button>
             </form>
-
         </div>
+
+    </section>
+
+    <div class="center footer">
+        copyright &copy; www.codeworld.com All right reserved!
     </div>
 </body>
 
